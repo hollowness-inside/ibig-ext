@@ -1,20 +1,20 @@
-#[cfg(jacobi)]
+#[cfg(feature = "jacobi")]
 pub mod jacobi;
 
-#[cfg(factorization)]
+#[cfg(feature = "factorization")]
 pub mod pollard_fact;
 
-#[cfg(logarithm)]
+#[cfg(feature = "logarithm")]
 pub mod pollard_log;
 
-#[cfg(powmod)]
+#[cfg(feature = "powmod")]
 pub mod powmod;
 
-#[cfg(primality)]
+#[cfg(feature = "primality")]
 pub mod primality;
 
-#[cfg(primegen)]
+#[cfg(feature = "primegen")]
 pub mod prime_gen;
 
-#[cfg(sqrt)]
+#[cfg(feature = "sqrt")]
 pub mod sqrt;
