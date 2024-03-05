@@ -7,3 +7,7 @@ edition = "2021"
 
 [dependencies]
 ibig = "0.3.6"
+rand = { version = "0.8.5", optional = true }
+
+[features]
+rand = ["dep:rand"]
