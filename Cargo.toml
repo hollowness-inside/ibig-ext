@@ -7,7 +7,9 @@ edition = "2021"
 
 [dependencies]
 ibig = "0.3.6"
+num-traits = { version = "0.2.18", optional = true }
 rand = { version = "0.8.5", optional = true }
 
 [features]
 rand = ["dep:rand"]
+num-traits = ["dep:num-traits"]

@@ -42,6 +42,7 @@ name = "ibig-ext"
 version = "0.1.0"
 dependencies = [
  "ibig",
+ "num-traits",
  "rand",
 ]
 
