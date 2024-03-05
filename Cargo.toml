@@ -14,3 +14,7 @@ rand = { version = "0.8.5", optional = true }
 [features]
 jacobi = ["dep:num-traits"]
 factorization = ["dep:primes", "dep:rand"]
+powmod = ["dep:num-traits"]
+primality = ["dep:rand"]
+primegen = ["dep:rand"]
+sqrtmod = []
