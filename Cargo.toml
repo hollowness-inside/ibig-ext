@@ -12,5 +12,5 @@ primes = { version = "0.3.0", optional = true }
 rand = { version = "0.8.5", optional = true }
 
 [features]
-rand = ["dep:rand"]
-num-traits = ["dep:num-traits"]
+jacobi = ["dep:num-traits"]
+factorization = ["dep:primes", "dep:rand"]
