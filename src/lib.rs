@@ -1,20 +1,20 @@
 #[cfg(jacobi)]
-mod jacobi;
+pub mod jacobi;
 
 #[cfg(factorization)]
-mod pollard_fact;
+pub mod pollard_fact;
 
 #[cfg(logarithm)]
-mod pollard_log;
+pub mod pollard_log;
 
 #[cfg(powmod)]
-mod powmod;
+pub mod powmod;
 
 #[cfg(primality)]
-mod primality;
+pub mod primality;
 
 #[cfg(primegen)]
-mod prime_gen;
+pub mod prime_gen;
 
 #[cfg(sqrt)]
-mod sqrt;
+pub mod sqrt;
