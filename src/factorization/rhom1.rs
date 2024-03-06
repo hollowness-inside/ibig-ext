@@ -1,7 +1,8 @@
 use ibig::{ubig, UBig};
-use powmod::PowMod;
 use primes::{PrimeSet, Sieve};
 use rand::Rng;
+
+use crate::powmod::PowMod;
 
 /// Attempts to find a non-trivial factor of a given number using Pollard's rho variant with the Montgomery function.
 ///

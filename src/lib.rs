@@ -2,7 +2,7 @@
 pub mod jacobi;
 
 #[cfg(feature = "factorization")]
-pub mod pollard_fact;
+pub mod factorization;
 
 #[cfg(feature = "logarithm")]
 pub mod pollard_log;

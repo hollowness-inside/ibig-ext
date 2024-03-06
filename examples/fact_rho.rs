@@ -1,5 +1,5 @@
 use ibig::UBig;
-use pollard::pollards_rho;
+use ibig_ext::factorization::pollards_rho;
 
 fn main() {
     let n = UBig::from(2189524387u64) * UBig::from(7810462081u64) * UBig::from(6929615699u64);

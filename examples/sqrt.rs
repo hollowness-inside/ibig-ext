@@ -1,6 +1,7 @@
 use ibig::ops::RemEuclid;
 use ibig::ubig;
-use sqrt::SquareRootMod;
+
+use ibig_ext::sqrt::SquareRootMod;
 
 fn main() {
     let div = ubig!(35239781);

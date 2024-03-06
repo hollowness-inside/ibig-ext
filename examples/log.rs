@@ -1,6 +1,7 @@
 use ibig::ibig;
-use pollard_log::discrete_log;
-use powmod::PowMod;
+
+use ibig_ext::pollard_log::discrete_log;
+use ibig_ext::powmod::PowMod;
 
 fn main() {
     let base = ibig!(4184873);

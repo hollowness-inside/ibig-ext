@@ -1,5 +1,6 @@
 use ibig::ubig;
-use powmod::PowMod;
+
+use ibig_ext::powmod::PowMod;
 
 fn main() {
     let base = ubig!(987654321);

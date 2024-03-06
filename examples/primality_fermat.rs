@@ -1,5 +1,6 @@
 use ibig::ubig;
-use primality::FermatTest;
+
+use ibig_ext::primality::FermatTest;
 
 fn main() {
     let to_check = ubig!(659555973512315526712786840633);

@@ -1,5 +1,5 @@
 use ibig::ubig;
-use jacobi::Jacobi;
+use ibig_ext::jacobi::Jacobi;
 
 fn main() {
     let nominator = ubig!(100);
