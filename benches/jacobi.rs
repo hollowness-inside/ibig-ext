@@ -4,7 +4,7 @@ extern crate test;
 use test::{black_box, Bencher};
 
 use ibig::ubig;
-use jacobi::Jacobi;
+use ibig_ext::jacobi::Jacobi;
 
 #[bench]
 fn bench_jacobi(bench: &mut Bencher) {

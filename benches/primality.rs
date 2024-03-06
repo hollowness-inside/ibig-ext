@@ -4,7 +4,7 @@ extern crate test;
 use test::{black_box, Bencher};
 
 use ibig::ubig;
-use primality::{FermatTest, MillerRabinTest, SolovayStrassenTest};
+use ibig_ext::primality::{FermatTest, MillerRabinTest, SolovayStrassenTest};
 
 #[bench]
 fn bench_fermat(bench: &mut Bencher) {

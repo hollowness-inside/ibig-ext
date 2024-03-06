@@ -4,7 +4,7 @@ extern crate test;
 use test::{black_box, Bencher};
 
 use ibig::ubig;
-use powmod::PowMod;
+use ibig_ext::powmod::PowMod;
 
 #[bench]
 fn bench_pow(bench: &mut Bencher) {

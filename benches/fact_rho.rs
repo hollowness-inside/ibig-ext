@@ -4,7 +4,7 @@ extern crate test;
 use test::{black_box, Bencher};
 
 use ibig::UBig;
-use pollard::pollards_rho;
+use ibig_ext::factorization::pollards_rho;
 
 #[bench]
 fn bench_rho(bench: &mut Bencher) {
