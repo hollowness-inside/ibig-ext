@@ -13,8 +13,6 @@ fn bench_pow(bench: &mut Bencher) {
     let modulo = ubig!(123);
 
     bench.iter(|| {
-        for _ in 1..500 {
-            black_box(base.powmod(exponent.clone(), &modulo));
-        }
+        black_box(base.powmod(exponent.clone(), &modulo));
     });
 }

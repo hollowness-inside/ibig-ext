@@ -12,8 +12,6 @@ fn bench_jacobi(bench: &mut Bencher) {
     let y = ubig!(987654321);
 
     bench.iter(|| {
-        for _ in 1..500 {
-            black_box(x.jacobi(y.clone())).unwrap();
-        }
+        black_box(x.jacobi(y.clone())).unwrap();
     });
 }
