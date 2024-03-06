@@ -1,9 +1,9 @@
 use ibig::ops::RemEuclid;
 use ibig::{ubig, UBig};
-use jacobi::{Jacobi, JacobiValue};
-use powmod::PowMod;
 
-use crate::BinarySqrt;
+use super::BinarySqrt;
+use crate::jacobi::{Jacobi, JacobiValue};
+use crate::powmod::PowMod;
 
 /// Defines the `square_root_mod` function, which attempts to compute the square root of a number modulo another number.
 pub trait SquareRootMod {

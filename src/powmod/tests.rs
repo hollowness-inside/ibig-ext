@@ -1,6 +1,7 @@
-use crate::PowMod;
 use ibig::{IBig, UBig};
 use std::str::FromStr;
+
+use super::PowMod;
 
 macro_rules! test {
         (UBIG $($name:ident($base:literal ^ $exponent:literal % $divisor:literal = $expected:literal),)*) => {

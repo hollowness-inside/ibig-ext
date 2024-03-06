@@ -1,6 +1,7 @@
 use ibig::ops::RemEuclid;
 use ibig::{ibig, IBig, UBig};
-use powmod::PowMod;
+
+use crate::powmod::PowMod;
 
 /// Calculates the discrete logarithm of `target` with respect to `base` modulo `divisor` using the
 /// Pollard's Rho algorithm.

@@ -1,4 +1,4 @@
-use crate::fermat::FermatTest;
+use super::FermatTest;
 
 use ibig::ubig;
 

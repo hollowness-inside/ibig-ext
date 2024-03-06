@@ -1,4 +1,4 @@
-use crate::ss::SolovayStrassenTest;
+use super::SolovayStrassenTest;
 
 use ibig::ubig;
 

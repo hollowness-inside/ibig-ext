@@ -5,7 +5,7 @@ pub mod jacobi;
 pub mod factorization;
 
 #[cfg(feature = "logarithm")]
-pub mod pollard_log;
+pub mod logarithm;
 
 #[cfg(feature = "powmod")]
 pub mod powmod;

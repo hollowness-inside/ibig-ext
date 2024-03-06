@@ -1,7 +1,7 @@
 use ibig::{IBig, UBig};
 use std::str::FromStr;
 
-use crate::discrete_log;
+use super::discrete_log;
 
 macro_rules! test {
     ($($name:ident: $base:literal ^ $log:literal = $target:literal % $div:literal;)*) => {

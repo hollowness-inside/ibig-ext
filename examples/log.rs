@@ -1,6 +1,6 @@
 use ibig::ibig;
 
-use ibig_ext::pollard_log::discrete_log;
+use ibig_ext::logarithm::discrete_log;
 use ibig_ext::powmod::PowMod;
 
 fn main() {

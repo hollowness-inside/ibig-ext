@@ -1,8 +1,8 @@
 use ibig::UBig;
 use std::str::FromStr;
 
+use super::result::Error;
 use crate::jacobi::{Jacobi, JacobiValue};
-use crate::result::Error;
 
 macro_rules! test {
     ($($name:ident($base:expr, $modulo:expr) -> $exp:expr;)+) => {

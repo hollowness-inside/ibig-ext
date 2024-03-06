@@ -1,4 +1,4 @@
-use crate::mr::MillerRabinTest;
+use super::MillerRabinTest;
 
 use ibig::ubig;
 
