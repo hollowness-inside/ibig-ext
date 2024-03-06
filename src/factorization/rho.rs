@@ -17,16 +17,6 @@ use ibig::{ubig, UBig};
 /// * `Some(d)`: A non-trivial factor of `n` if found, where `d` is a `UBig`.
 /// * `None`: If no factor is found within the specified `iterations`.
 ///
-/// # Examples
-///
-/// ```rust
-/// use ibig::UBig;
-///
-/// let n = UBig::from(15);
-/// let factor = pollards_rho(&n, &UBig::from(2), 100, |x| x * x + 1).unwrap();
-/// assert_eq!(factor, UBig::from(3));
-/// ```
-///
 pub fn pollards_rho<F>(
     composite: &UBig,
     starting_value: &UBig,

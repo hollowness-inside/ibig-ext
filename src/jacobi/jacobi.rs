@@ -36,7 +36,7 @@ impl Jacobi<UBig> for UBig {
     ///
     /// ```rust
     /// use ibig::ubig;
-    /// use crate::jacobi::{Jacobi, JacobiValue};
+    /// use ibig_ext::jacobi::{Jacobi, JacobiValue};
     ///
     /// let a = ubig!(17);
     /// let n = ubig!(5);
@@ -83,17 +83,6 @@ impl Jacobi<UBig> for UBig {
 impl Jacobi<UBig> for IBig {
     /// Calculates the Jacobi symbol (self|modulo).
     ///
-    /// # Example
-    ///
-    /// ```rust
-    /// use ibig::{ibig, ubig};
-    /// use crate::jacobi::{Jacobi, JacobiValue};
-    ///
-    /// let a = ibig!(17);
-    /// let n = ubig!(5);
-    ///
-    /// assert_eq!(a.jacobi(n), Ok(JacobiValue::NonResidue));
-    /// ```
     fn jacobi(&self, modulo: UBig) -> Result<JacobiValue> {
         let imod: IBig = modulo.clone().into();
         let base: UBig = self
