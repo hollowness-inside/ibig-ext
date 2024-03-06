@@ -1,7 +1,8 @@
 use ibig::{ibig, ubig, IBig, UBig};
-use jacobi::Jacobi;
-use powmod::PowMod;
 use rand::Rng;
+
+use crate::jacobi::Jacobi;
+use crate::powmod::PowMod;
 
 pub trait SolovayStrassenTest {
     fn solovay_strassen_test(&self, iterations: usize) -> f64;

@@ -1,7 +1,7 @@
 use ibig::{ubig, UBig};
 use rand::Rng;
 
-use powmod::PowMod;
+use crate::powmod::PowMod;
 
 pub trait FermatTest {
     fn fermat_test(&self, iterations: usize) -> f64;

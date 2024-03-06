@@ -1,6 +1,7 @@
 use ibig::{ubig, UBig};
-use powmod::PowMod;
 use rand::Rng;
+
+use crate::powmod::PowMod;
 
 pub trait MillerRabinTest {
     fn miller_rabin_test(&self, iterations: usize) -> f64;

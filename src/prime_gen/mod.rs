@@ -1,6 +1,7 @@
 use ibig::{ubig, UBig};
-use primality::MillerRabinTest;
 use rand::Rng;
+
+use crate::primality::MillerRabinTest;
 
 pub fn gen_sized_prime(bit_length: usize, persistence: usize) -> UBig {
     loop {

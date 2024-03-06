@@ -2,7 +2,7 @@ use ibig::ops::RemEuclid;
 use ibig::{IBig, UBig};
 use num_traits::{One, Zero};
 
-use crate::result::{Error, Result};
+use super::result::{Error, Result};
 
 /// Possible values of the Jacobi symbol.
 #[derive(Debug, PartialEq)]
